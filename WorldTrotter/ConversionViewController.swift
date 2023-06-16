@@ -35,7 +35,14 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("ConversionViewController viewDidLoad()")
+        
         updateCelsiusLabel()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("ConversionViewController viewWillAppear()\nanimated: \(animated)")
     }
     
     @IBAction func farenheitFieldEditingChanged(_ textField: UITextField) {
