@@ -3,7 +3,6 @@
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
-        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,25 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WP2-Jl-6px">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WP2-Jl-6px">
                                 <rect key="frame" x="67.666666666666686" y="160.33333333333334" width="295" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eg-pA-JJK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eg-pA-JJK">
                                 <rect key="frame" x="158" y="211.33333333333334" width="114" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKO-kc-f50">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKO-kc-f50">
                                 <rect key="frame" x="156.66666666666666" y="262.33333333333331" width="116.66666666666666" height="83.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwp-pT-0kI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwp-pT-0kI">
                                 <rect key="frame" x="92.333333333333329" y="354" width="245.33333333333337" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -58,16 +57,24 @@
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="CKO-kc-f50" firstAttribute="top" secondItem="6eg-pA-JJK" secondAttribute="bottom" constant="8" id="0h5-NM-biQ"/>
                             <constraint firstItem="WP2-Jl-6px" firstAttribute="top" secondItem="hAT-1u-hBY" secondAttribute="bottom" constant="8" id="3Lc-5D-UaP"/>
-                            <constraint firstItem="6eg-pA-JJK" firstAttribute="top" secondItem="WP2-Jl-6px" secondAttribute="bottom" constant="8" id="Ad7-lC-8bL"/>
-                            <constraint firstItem="6eg-pA-JJK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CSX-f5-WXY"/>
+                            <constraint firstItem="6eg-pA-JJK" firstAttribute="top" secondItem="WP2-Jl-6px" secondAttribute="bottom" constant="8" id="Fr9-vq-iby"/>
+                            <constraint firstItem="6eg-pA-JJK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GL7-nc-Ydc"/>
                             <constraint firstItem="hAT-1u-hBY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="JeV-jC-lF4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lwp-pT-0kI" secondAttribute="trailing" id="P5N-He-Hca"/>
                             <constraint firstItem="WP2-Jl-6px" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pss-81-3dD"/>
+                            <constraint firstItem="WP2-Jl-6px" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TrP-i7-7VM"/>
                             <constraint firstItem="hAT-1u-hBY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W7f-BI-T9W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6eg-pA-JJK" secondAttribute="trailing" id="WgK-bL-t9y"/>
+                            <constraint firstItem="lwp-pT-0kI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y4U-Pc-UPj"/>
+                            <constraint firstItem="6eg-pA-JJK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aZh-47-16i"/>
+                            <constraint firstItem="lwp-pT-0kI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b7U-sn-yeL"/>
+                            <constraint firstItem="CKO-kc-f50" firstAttribute="top" secondItem="6eg-pA-JJK" secondAttribute="bottom" constant="8" id="cal-Jg-LlR"/>
                             <constraint firstItem="CKO-kc-f50" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fnC-SR-3Ls"/>
-                            <constraint firstItem="lwp-pT-0kI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hG7-ic-hee"/>
-                            <constraint firstItem="lwp-pT-0kI" firstAttribute="top" secondItem="CKO-kc-f50" secondAttribute="bottom" constant="8" id="iPL-H3-jWL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WP2-Jl-6px" secondAttribute="trailing" id="hlB-5H-4PP"/>
+                            <constraint firstItem="CKO-kc-f50" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hvO-iC-ZD3"/>
+                            <constraint firstItem="lwp-pT-0kI" firstAttribute="top" secondItem="CKO-kc-f50" secondAttribute="bottom" constant="8" id="mej-rn-Cx4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CKO-kc-f50" secondAttribute="trailing" id="rr7-Nk-Bfw"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="lI4-vo-sxt" appends="YES" id="piy-lc-WYe"/>
@@ -92,11 +99,6 @@
         <scene sceneID="Xix-We-rlF">
             <objects>
                 <viewController id="Wg8-ax-a77" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="H2w-bC-Xse">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <standardMapConfiguration key="preferredConfiguration"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="TfV-8a-8DU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e1k-XN-daz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -109,6 +111,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wrl-PO-aJy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Go-oY-pHy">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
